@@ -5,6 +5,15 @@ Which one to choose?
 
 In terms of functionality, X11 is probably the most mature and feature rich.  Wayland is next in line and should be considered on-par with X11, however, a known limitation of Wayland is having the resolution and frame rate set in the compositor rather than in kodi's GUI.  As well, Wayland currently does not support VT switching.  GBM has some known features it lacks compared the X11 and Wayland.  A complete list can be found in [Kodi issue 14876](https://github.com/xbmc/xbmc/issues/14876).
 
+Installing X
+
+apt install xauth
+apt install xorg
+apt install xinit
+apt install xserver-xorg-core
+apt install xserver-xorg
+apt install xserver-common
+
 Another factor that may affect choice is the number of dependencies required to run which will vary distro-to-distro.
 
 ## Installation
