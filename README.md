@@ -9,12 +9,17 @@ In terms of functionality, X11 is probably the most mature and feature rich.  Wa
 ```
 apt install xauth
 apt install xorg
-apt install xinit
-apt install xserver-xorg-core
-apt install xserver-xorg
-apt install xserver-common
 ```
 Another factor that may affect choice is the number of dependencies required to run which will vary distro-to-distro.
+
+### Add Kodi User
+```
+useradd kodi -u 420 -g kodi -G audio,video,network,optical \
+-d /var/lib/kodi -s /usr/bin/nologin kodi
+passwd -l kodi > /dev/null
+mkdir /var/lib/kodi/.kodi
+chown -R kodi:kodi /var/lib/kodi/.kodi
+```
 
 ## Installation
 ### Arch Linux
