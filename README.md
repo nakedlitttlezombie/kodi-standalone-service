@@ -7,12 +7,12 @@ In terms of functionality, X11 is probably the most mature and feature rich.  Wa
 
 ### Installing X
 ```
-# apt install xauth
-# apt install xorg
-# apt install xinit
-# apt install xserver-xorg-core
-# apt install xserver-xorg
-# apt install xserver-common
+apt install xauth
+apt install xorg
+apt install xinit
+apt install xserver-xorg-core
+apt install xserver-xorg
+apt install xserver-common
 ```
 Another factor that may affect choice is the number of dependencies required to run which will vary distro-to-distro.
 
